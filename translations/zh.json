@@ -1,0 +1,339 @@
+{
+  "hero": {
+    "title": "利达 LIDA",
+    "subtitle": "亚洲外卖",
+    "description": "在巴黎第二区用心制作的新鲜亚洲美食",
+    "inPlace": "堂食",
+    "takeAway": "外卖",
+    "location": "📍 59 rue de Cléry, 75002"
+  },
+  "featured": {
+    "sectionTitle": "招牌菜",
+    "sectionSubtitle": "特色菜品",
+    "cards": [
+      {
+        "tag": "本店特色",
+        "title": "泰式炒河粉",
+        "description": "泰式河粉配肉和花生",
+        "price": "13,00 €"
+      },
+      {
+        "tag": "招牌",
+        "title": "混合凉拌米粉",
+        "description": "牛肉、鸡肉和虾仁",
+        "price": "12,50 €"
+      },
+      {
+        "tag": "特色",
+        "title": "牛肉Loc Lak",
+        "description": "配泰式米饭（加蛋+1.50€）",
+        "price": "12,00 €"
+      },
+      {
+        "tag": "特色",
+        "title": "虾仁罗勒配饭",
+        "description": "泰式罗勒虾仁",
+        "price": "12,50 €"
+      }
+    ]
+  },
+  "specialites": {
+    "sectionTitle": "我们的特色",
+    "sectionSubtitle": "热菜",
+    "soupes": {
+      "title": "汤类",
+      "tag": "本店",
+      "description": "每日精心制作",
+      "items": [
+        {
+          "name": "S1 • 泰式炒河粉",
+          "description": "泰式河粉配肉和花生",
+          "price": "13,00 €"
+        },
+        {
+          "name": "S2 • 馄饨汤（6个）",
+          "description": "虾仁与荸荠",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S3 • 面条与馄饨（4个）",
+          "description": "",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S4 • 泰式虾仁汤",
+          "description": "面条或米粉",
+          "price": "12,00 €"
+        }
+      ]
+    },
+    "boBuns": {
+      "title": "凉拌米粉",
+      "tag": "新鲜",
+      "description": "米粉、蔬菜、花生、春卷",
+      "items": [
+        {
+          "name": "牛肉或鸡肉",
+          "price": "11,50 €"
+        },
+        {
+          "name": "虾仁（6个）",
+          "price": "12,00 €"
+        },
+        {
+          "name": "混合（牛肉、鸡肉和虾仁）",
+          "price": "12,50 €"
+        },
+        {
+          "name": "素食豆腐",
+          "price": "11,00 €"
+        }
+      ]
+    }
+  },
+  "padThai": {
+    "title": "泰式炒河粉",
+    "description": "罗望子酱、酱油、葱、花生",
+    "items": [
+      {
+        "name": "P1 • 牛肉",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P2 • 鸡肉",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P3 • 虾仁",
+        "price": "12,00 €"
+      },
+      {
+        "name": "P4 • 素食豆腐",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "nouilles": {
+    "title": "炒面",
+    "items": [
+      {
+        "name": "N1 • 牛肉",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N2 • 鸡肉",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N3 • 虾仁",
+        "price": "12,00 €"
+      },
+      {
+        "name": "N4 • 素食",
+        "price": "11,00 €"
+      },
+      {
+        "name": "T1 • 番茄炒蛋",
+        "description": "可选：面条、米粉或米饭",
+        "price": "10,50 €"
+      }
+    ]
+  },
+  "platsRiz": {
+    "title": "米饭精选",
+    "items": [
+      {
+        "name": "PS1 • 牛肉罗勒配饭",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS2 • 鸡肉罗勒配饭",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS3 • 虾仁罗勒配饭",
+        "price": "12,50 €"
+      },
+      {
+        "name": "PS4 • 牛肉Loc Lak配泰式米饭",
+        "description": "加蛋+1.50€",
+        "price": "12,00 €"
+      },
+      {
+        "name": "PS5 • 猪肉饺子（15个）",
+        "price": "11,00 €"
+      },
+      {
+        "name": "PS6 • 红咖喱鸡肉配饭",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "dimSum": {
+    "title": "点心小食",
+    "description": "可分享或作为开胃菜 • 适合下酒",
+    "tag": "自制 / 蒸制 & 烤制",
+    "items": [
+      {
+        "name": "春卷（4个）",
+        "description": "鸡肉或素食",
+        "price": "5,50 €"
+      },
+      {
+        "name": "日式饺子（6个）",
+        "description": "鸡肉（锅贴）",
+        "price": "5,50 €"
+      },
+      {
+        "name": "天妇罗虾仁（5个）",
+        "description": "酥脆炸制",
+        "price": "6,50 €"
+      },
+      {
+        "name": "迷你上海小笼包（4个）",
+        "description": "猪肉包子",
+        "price": "6,50 €"
+      },
+      {
+        "name": "虾仁烧卖（4个）",
+        "description": "虾仁与荸荠",
+        "price": "5,50 €"
+      },
+      {
+        "name": "虾仁饺子（4个）",
+        "description": "虾饺 - 透明皮",
+        "price": "5,50 €"
+      }
+    ]
+  },
+  "desserts": {
+    "sectionTitle": "甜品与饮料",
+    "sectionSubtitle": "甜品 & 饮料 & 酒类",
+    "dessertsSection": {
+      "title": "甜品",
+      "items": [
+        {
+          "name": "抹茶麻薯冰淇淋",
+          "price": "3,50 € / 个"
+        },
+        {
+          "name": "巧克力麻薯冰淇淋",
+          "price": "3,50 € / 个"
+        },
+        {
+          "name": "椰子麻薯冰淇淋",
+          "price": "3,50 € / 个"
+        },
+        {
+          "name": "泰茶麻薯冰淇淋",
+          "price": "3,50 € / 个"
+        },
+        {
+          "name": "椰子珍珠",
+          "price": "3,00 € / 个"
+        }
+      ]
+    },
+    "boissonsSection": {
+      "title": "饮料",
+      "items": [
+        {
+          "name": "矿泉水 50 cl",
+          "price": "2,50 €"
+        },
+        {
+          "name": "圣培露（50 cl / 1 L）",
+          "price": "3,00 / 5,00 €"
+        },
+        {
+          "name": "经典罐装饮料",
+          "price": "2,00 €"
+        },
+        {
+          "name": "特色罐装饮料",
+          "description": "荔枝、芒果、椰子、豆奶、椰果",
+          "price": "3,00 €"
+        },
+        {
+          "name": "芦荟 50 cl",
+          "price": "3,80 €"
+        },
+        {
+          "name": "茉莉花茶 / 柠檬茶",
+          "price": "2,50 / 3,00 €"
+        },
+        {
+          "name": "咖啡",
+          "price": "2,00 €"
+        }
+      ]
+    },
+    "bieresVinsSection": {
+      "title": "啤酒与葡萄酒",
+      "items": [
+        {
+          "name": "青岛啤酒（33 cl / 64 cl）",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "朝日啤酒（33 cl / 50 cl）",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "自制鸡尾酒",
+          "price": "4,50 €"
+        },
+        {
+          "name": "基尔 / 马天尼 / 里卡德",
+          "price": "4,00 €"
+        },
+        {
+          "name": "按杯葡萄酒",
+          "price": "2,50 €"
+        },
+        {
+          "name": "红酒壶装（25 cl / 50 cl）",
+          "price": "3,50 / 6,50 €"
+        }
+      ]
+    }
+  },
+  "infos": {
+    "sectionTitle": "实用信息",
+    "sectionSubtitle": "营业时间 & 地址",
+    "horaires": {
+      "title": "营业时间",
+      "items": [
+        {
+          "day": "周一 - 周六",
+          "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+        },
+        {
+          "day": "周日",
+          "hours": "休息"
+        }
+      ]
+    },
+    "adresse": {
+      "title": "地址 & 联系方式",
+      "address": "59 rue de Cléry\n75002 Paris",
+      "phone": "09 51 25 06 86",
+      "mapsText": "在谷歌地图中打开"
+    }
+  },
+  "footer": {
+    "title": "利达 LIDA",
+    "text": "亚洲外卖 • 巴黎二区",
+    "copyright": "© 2026 LIDA 利达 亚洲外卖。照片仅供参考。实际产品可能与图片不同。"
+  },
+  "mobile": {
+    "call": "电话",
+    "directions": "导航"
+  },
+  "nav": {
+    "platsChauds": "热菜",
+    "dimSum": "点心",
+    "boissonsDesserts": "饮料 & 甜品",
+    "horairesAcces": "营业时间 & 地址"
+  }
+}

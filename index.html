@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIDA 利达 | Traiteur Asiatique Paris 2ème</title>
+  <meta name="description" content="Traiteur asiatique LIDA - Spécialités fraîches au cœur de Paris 2ème. 59 rue de Cléry. Sur place et à emporter.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen text-stone-800">
+  
+  <!-- Desktop Sticky Navigation -->
+  <nav class="hidden md:flex sticky top-0 z-50 sticky-nav px-6 py-4 items-center justify-between">
+    <div class="flex items-center gap-8">
+      <a href="#" class="font-display text-2xl font-bold text-stone-900">LIDA 利达</a>
+      <div class="flex items-center gap-6 text-sm font-medium tracking-wide">
+        <a href="#specialites" class="text-stone-600 hover:text-brand-red transition" data-i18n="nav.platsChauds">Plats Chauds</a>
+        <a href="#dimsum" class="text-stone-600 hover:text-brand-red transition" data-i18n="nav.dimSum">Dim Sum</a>
+        <a href="#boissons" class="text-stone-600 hover:text-brand-red transition" data-i18n="nav.boissonsDesserts">Boissons & Desserts</a>
+        <a href="#infos" class="text-stone-600 hover:text-brand-red transition" data-i18n="nav.horairesAcces">Horaires & Accès</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="lang-switcher">
+        <button onclick="setLanguage('fr')" class="lang-btn active" data-lang="fr">FR</button>
+        <button onclick="setLanguage('en')" class="lang-btn" data-lang="en">EN</button>
+        <button onclick="setLanguage('zh')" class="lang-btn" data-lang="zh">中文</button>
+      </div>
+      <a href="tel:0951250686" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brand-red text-white text-sm font-medium hover:bg-red-700 transition shadow-lg">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        <span>09 51 25 06 86</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mobile Sticky Navigation -->
+  <nav class="md:hidden sticky top-0 z-50 sticky-nav px-4 py-3 flex items-center justify-between">
+    <a href="#" class="font-display text-xl font-bold text-stone-900">LIDA 利达</a>
+    <div class="lang-switcher">
+      <button onclick="setLanguage('fr')" class="lang-btn active" data-lang="fr">FR</button>
+      <button onclick="setLanguage('en')" class="lang-btn" data-lang="en">EN</button>
+      <button onclick="setLanguage('zh')" class="lang-btn" data-lang="zh">中文</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-pattern relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+      <div class="text-center">
+        <h1 class="font-display text-5xl md:text-7xl font-bold text-stone-900 mb-4" data-i18n="hero.title">利达 LIDA</h1>
+        <p class="text-lg md:text-xl text-stone-600 uppercase tracking-widest mb-6" data-i18n="hero.subtitle">Traiteur Asiatique</p>
+        <p class="text-stone-500 max-w-2xl mx-auto mb-8 leading-relaxed" data-i18n="hero.description">
+          Spécialités culinaires asiatiques fraîches préparées avec passion au cœur du 2ème arrondissement de Paris.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 text-sm font-medium">
+          <span class="px-5 py-2.5 bg-white/90 rounded-full border border-stone-200 shadow-sm" data-i18n="hero.inPlace">🍜 Sur place</span>
+          <span class="px-5 py-2.5 bg-white/90 rounded-full border border-stone-200 shadow-sm" data-i18n="hero.takeAway">🥡 À emporter</span>
+          <span class="px-5 py-2.5 bg-white/90 rounded-full border border-stone-200 shadow-sm" data-i18n="hero.location">📍 59 rue de Cléry, 75002</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Featured Dishes Horizontal Carousel -->
+  <section class="featured-section">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+      <div class="text-center mb-6">
+        <h2 class="font-display text-2xl md:text-3xl font-bold text-stone-900 mb-2" data-i18n="featured.sectionTitle">Nos Incontournables</h2>
+        <p class="text-stone-500" data-i18n="featured.sectionSubtitle">Plats Phares / Signatures</p>
+      </div>
+
+      <div class="featured-carousel">
+        <!-- Card 1: Phở -->
+        <div class="featured-card" data-i18n-card="featured.cards.0">
+          <div class="featured-card-image">
+            <img src="image/padthai.jpg" alt="Pad Thaï" class="featured-img">
+          </div>
+          <div class="featured-card-content">
+            <span class="featured-tag" data-i18n="featured.cards.0.tag">Spécialité Maison</span>
+            <h3 class="featured-title" data-i18n="featured.cards.0.title">Pad Thaï</h3>
+            <p class="featured-desc" data-i18n="featured.cards.0.description">Nouilles thaï avec viande et cacahuètes</p>
+            <span class="featured-price" data-i18n="featured.cards.0.price">13,00 €</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Bo Bun Mixte -->
+        <div class="featured-card" data-i18n-card="featured.cards.1">
+          <div class="featured-card-image">
+            <img src="image/bobun-mix.jpg" alt="Bo Bun Mixte" class="featured-img">
+          </div>
+          <div class="featured-card-content">
+            <span class="featured-tag" data-i18n="featured.cards.1.tag">Signature</span>
+            <h3 class="featured-title" data-i18n="featured.cards.1.title">Bo Bun Mixte</h3>
+            <p class="featured-desc" data-i18n="featured.cards.1.description">Bœuf, poulet & crevettes</p>
+            <span class="featured-price" data-i18n="featured.cards.1.price">12,50 €</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Bœuf Loc Lak -->
+        <div class="featured-card" data-i18n-card="featured.cards.2">
+          <div class="featured-card-image">
+            <img src="image/riz-loclac.jpg" alt="Bœuf Loc Lak" class="featured-img">
+          </div>
+          <div class="featured-card-content">
+            <span class="featured-tag" data-i18n="featured.cards.2.tag">Spécialité</span>
+            <h3 class="featured-title" data-i18n="featured.cards.2.title">Bœuf Loc Lak</h3>
+            <p class="featured-desc" data-i18n="featured.cards.2.description">Avec riz thaï (+1,50 € avec œuf)</p>
+            <span class="featured-price" data-i18n="featured.cards.2.price">12,00 €</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Crevettes basilic + riz -->
+        <div class="featured-card" data-i18n-card="featured.cards.3">
+          <div class="featured-card-image">
+            <img src="image/baslic_crevette.jpg" alt="Crevettes basilic + riz" class="featured-img">
+          </div>
+          <div class="featured-card-content">
+            <span class="featured-tag" data-i18n="featured.cards.3.tag">Spécialité</span>
+            <h3 class="featured-title" data-i18n="featured.cards.3.title">Crevettes basilic + riz</h3>
+            <p class="featured-desc" data-i18n="featured.cards.3.description">Crevettes au basilic thaï</p>
+            <span class="featured-price" data-i18n="featured.cards.3.price">12,50 €</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-4 py-12 pb-24 md:pb-12">
+    
+    <!-- Section 1: SOUPES & BO BUNS -->
+    <section id="specialites" class="mb-16">
+      <div class="text-center mb-10">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-stone-900 mb-2" data-i18n="specialites.sectionTitle">Nos Spécialités</h2>
+        <p class="text-stone-500" data-i18n="specialites.sectionSubtitle">Plats Chauds</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        <!-- SOUPES -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-2xl font-bold text-stone-900 mb-1 flex justify-between items-center">
+            <span data-i18n="specialites.soupes.title">SOUPES</span>
+            <span class="text-xs font-normal text-brand-gold uppercase tracking-wider" data-i18n="specialites.soupes.tag">Maison</span>
+          </h3>
+          <p class="text-sm text-stone-500 mb-6 italic" data-i18n="specialites.soupes.description">Préparées avec soin chaque jour</p>
+
+          <div class="space-y-1">
+            <div class="dish-item py-4 flex justify-between items-start">
+              <div>
+                <span class="font-semibold text-stone-900" data-i18n="specialites.soupes.items.0.name">S1 • Pad Thaï</span>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="specialites.soupes.items.0.description">Nouilles thaï avec viande et cacahuètes</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg ml-4 whitespace-nowrap" data-i18n="specialites.soupes.items.0.price">13,00 €</span>
+            </div>
+            <div class="dish-item py-4 flex justify-between items-start">
+              <div>
+                <span class="font-semibold text-stone-900" data-i18n="specialites.soupes.items.1.name">S2 • Soupe wontons (6 pcs)</span>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="specialites.soupes.items.1.description">Crevettes & châtaignes d'eau</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg ml-4 whitespace-nowrap" data-i18n="specialites.soupes.items.1.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-4 flex justify-between items-start">
+              <div>
+                <span class="font-semibold text-stone-900" data-i18n="specialites.soupes.items.2.name">S3 • Nouilles & wontons (4 pcs)</span>
+              </div>
+              <span class="font-bold text-brand-red text-lg ml-4 whitespace-nowrap" data-i18n="specialites.soupes.items.2.price">11,50 €</span>
+            </div>
+            <div class="py-4 flex justify-between items-start">
+              <div>
+                <span class="font-semibold text-stone-900" data-i18n="specialites.soupes.items.3.name">S4 • Soupe thaï aux crevettes</span>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="specialites.soupes.items.3.description">Nouilles ou vermicelles de riz</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg ml-4 whitespace-nowrap" data-i18n="specialites.soupes.items.3.price">12,00 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BO BUNS -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-2xl font-bold text-stone-900 mb-1 flex justify-between items-center">
+            <span data-i18n="specialites.boBuns.title">BO BUNS</span>
+            <span class="text-xs font-normal text-brand-gold uppercase tracking-wider" data-i18n="specialites.boBuns.tag">Fraîcheur</span>
+          </h3>
+          <p class="text-sm text-stone-500 mb-6 italic" data-i18n="specialites.boBuns.description">Vermicelles, crudités, cacahuètes, nems croustillants</p>
+
+          <div class="space-y-1">
+            <div class="dish-item py-4 flex justify-between items-center">
+              <span class="font-medium text-stone-900" data-i18n="specialites.boBuns.items.0.name">Bœuf ou Poulet</span>
+              <span class="font-bold text-brand-red text-lg whitespace-nowrap" data-i18n="specialites.boBuns.items.0.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-4 flex justify-between items-center">
+              <span class="font-medium text-stone-900" data-i18n="specialites.boBuns.items.1.name">Crevettes (6 pcs)</span>
+              <span class="font-bold text-brand-red text-lg whitespace-nowrap" data-i18n="specialites.boBuns.items.1.price">12,00 €</span>
+            </div>
+            <div class="dish-item py-4 flex justify-between items-center">
+              <span class="font-medium text-stone-900" data-i18n="specialites.boBuns.items.2.name">Mixte (bœuf, poulet & crevettes)</span>
+              <span class="font-bold text-brand-red text-lg whitespace-nowrap" data-i18n="specialites.boBuns.items.2.price">12,50 €</span>
+            </div>
+            <div class="py-4 flex justify-between items-center">
+              <span class="font-medium text-stone-900" data-i18n="specialites.boBuns.items.3.name">Végétarien au tofu</span>
+              <span class="font-bold text-brand-red text-lg whitespace-nowrap" data-i18n="specialites.boBuns.items.3.price">11,00 €</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 2: PAD THAÏ & NOUILLES & PLATS -->
+    <section class="mb-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- PAD THAÏ -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-2" data-i18n="padThai.title">PAD THAÏ</h3>
+          <p class="text-sm text-stone-500 mb-6 italic" data-i18n="padThai.description">Sauce tamarin, soja, ciboulette, cacahuètes</p>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="padThai.items.0.name">P1 • Bœuf</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="padThai.items.0.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="padThai.items.1.name">P2 • Poulet</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="padThai.items.1.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="padThai.items.2.name">P3 • Crevettes</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="padThai.items.2.price">12,00 €</span>
+            </div>
+            <div class="py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="padThai.items.3.name">P4 • Végétarien au tofu</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="padThai.items.3.price">11,00 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- NOUILLES SAUTÉES -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-2" data-i18n="nouilles.title">NOUILLES SAUTÉES</h3>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="nouilles.items.0.name">N1 • Bœuf</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="nouilles.items.0.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="nouilles.items.1.name">N2 • Poulet</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="nouilles.items.1.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="nouilles.items.2.name">N3 • Crevettes</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="nouilles.items.2.price">12,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="nouilles.items.3.name">N4 • Végétariennes</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="nouilles.items.3.price">11,00 €</span>
+            </div>
+            <div class="py-3 flex justify-between items-start">
+              <div>
+                <span class="font-medium text-stone-900" data-i18n="nouilles.items.4.name">T1 • Œufs brouillés, tomates</span>
+                <p class="text-xs text-stone-400 mt-1" data-i18n="nouilles.items.4.description">Choix : nouilles, vermicelles ou riz</p>
+              </div>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="nouilles.items.4.price">10,50 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PLATS & RIZ -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-2" data-i18n="platsRiz.title">PLATS & RIZ</h3>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="platsRiz.items.0.name">PS1 • Bœuf basilic + riz</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.0.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="platsRiz.items.1.name">PS2 • Poulet basilic + riz</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.1.price">11,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="platsRiz.items.2.name">PS3 • Crevettes basilic + riz</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.2.price">12,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between items-start">
+              <div>
+                <span class="font-medium text-stone-900" data-i18n="platsRiz.items.3.name">PS4 • Bœuf loc lak + riz thaï</span>
+                <p class="text-xs text-brand-gold font-medium mt-1" data-i18n="platsRiz.items.3.description">+1,50 € avec œuf</p>
+              </div>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.3.price">12,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="platsRiz.items.4.name">PS5 • Raviolis chinois porc (15 pcs)</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.4.price">11,00 €</span>
+            </div>
+            <div class="py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="platsRiz.items.5.name">PS6 • Poulet curry rouge + riz</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="platsRiz.items.5.price">11,00 €</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: SNACKS & DIM SUM -->
+    <section id="dimsum" class="mb-16">
+      <div class="menu-card p-6 md:p-8 bg-gradient-to-br from-amber-50 to-orange-50">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 pb-6 border-b border-amber-200">
+          <div>
+            <h3 class="font-display text-2xl md:text-3xl font-bold text-stone-900 mb-2" data-i18n="dimSum.title">SNACKS & DIM SUM</h3>
+            <p class="text-sm text-stone-600" data-i18n="dimSum.description">À partager ou en entrée • Idéal pour l'apéritif</p>
+          </div>
+          <span class="text-xs uppercase tracking-wider text-brand-gold font-semibold mt-4 md:mt-0 bg-white px-4 py-2 rounded-full shadow-sm" data-i18n="dimSum.tag">Fait Maison / Vapeur & Grillé</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.0.name">Nems (4 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.0.description">Poulet ou végétarien</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.0.price">5,50 €</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.1.name">Raviolis japonais (6 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.1.description">Au poulet (Gyoza)</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.1.price">5,50 €</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.2.name">Tempura de crevettes (5 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.2.description">Fritures croustillantes</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.2.price">6,50 €</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.3.name">Mini brioches shanghaïennes (4 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.3.description">Baozi au porc</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.3.price">6,50 €</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.4.name">Bouchées aux crevettes (4 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.4.description">Crevettes & châtaignes d'eau (Siu Mai)</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.4.price">5,50 €</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-amber-100 shadow-sm hover:shadow-md transition">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="font-semibold text-stone-900" data-i18n="dimSum.items.5.name">Raviolis aux crevettes (4 pcs)</p>
+                <p class="text-sm text-stone-500 mt-1" data-i18n="dimSum.items.5.description">Ha Kao - Robe transparente</p>
+              </div>
+              <span class="font-bold text-brand-red text-lg" data-i18n="dimSum.items.5.price">5,50 €</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: DESSERTS & BOISSONS -->
+    <section id="boissons" class="mb-16">
+      <div class="text-center mb-10">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-stone-900 mb-2" data-i18n="desserts.sectionTitle">Desserts & Boissons</h2>
+        <p class="text-stone-500" data-i18n="desserts.sectionSubtitle">Desserts & Boissons</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- DESSERTS -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-6 pb-3 border-b border-stone-100" data-i18n="desserts.dessertsSection.title">DESSERTS</h3>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.dessertsSection.items.0.name">Mochi glacé thé vert</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.dessertsSection.items.0.price">3,50 € / pc</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.dessertsSection.items.1.name">Mochi glacé chocolat</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.dessertsSection.items.1.price">3,50 € / pc</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.dessertsSection.items.2.name">Mochi glacé coco</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.dessertsSection.items.2.price">3,50 € / pc</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.dessertsSection.items.3.name">Mochi glacé thaï tea</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.dessertsSection.items.3.price">3,50 € / pc</span>
+            </div>
+            <div class="py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.dessertsSection.items.4.name">Perle de coco</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.dessertsSection.items.4.price">3,00 € / pc</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOISSONS -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-6 pb-3 border-b border-stone-100" data-i18n="desserts.boissonsSection.title">BOISSONS</h3>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.0.name">Eau minérale 50 cl</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.0.price">2,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.1.name">San Pellegrino (50 cl / 1 L)</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.1.price">3,00 / 5,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.2.name">Canette classique</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.2.price">2,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between items-start">
+              <div>
+                <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.3.name">Canette exotique</span>
+                <p class="text-xs text-stone-400 mt-1" data-i18n="desserts.boissonsSection.items.3.description">Litchi, mangue, coco, soja, nata de coco</p>
+              </div>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.3.price">3,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.4.name">Aloès vera 50 cl</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.4.price">3,80 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.5.name">Thé jasmin / Thé citron</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.5.price">2,50 / 3,00 €</span>
+            </div>
+            <div class="py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.boissonsSection.items.6.name">Café</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.boissonsSection.items.6.price">2,00 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIÈRES & VINS -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-6 pb-3 border-b border-stone-100" data-i18n="desserts.bieresVinsSection.title">BIÈRES & VINS</h3>
+
+          <div class="space-y-1">
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.0.name">Tsingtao (33 cl / 64 cl)</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.0.price">3,00 / 5,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.1.name">Asahi (33 cl / 50 cl)</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.1.price">3,00 / 5,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.2.name">Cocktail maison</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.2.price">4,50 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.3.name">Kir / Martini / Ricard</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.3.price">4,00 €</span>
+            </div>
+            <div class="dish-item py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.4.name">Vin au verre</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.4.price">2,50 €</span>
+            </div>
+            <div class="py-3 flex justify-between">
+              <span class="font-medium text-stone-900" data-i18n="desserts.bieresVinsSection.items.5.name">Vin carafe (25 cl / 50 cl)</span>
+              <span class="font-bold text-brand-red whitespace-nowrap" data-i18n="desserts.bieresVinsSection.items.5.price">3,50 / 6,50 €</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 5: INFOS -->
+    <section id="infos" class="mb-8">
+      <div class="text-center mb-10">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-stone-900 mb-2" data-i18n="infos.sectionTitle">Informations Pratiques</h2>
+        <p class="text-stone-500" data-i18n="infos.sectionSubtitle">Horaires & Accès</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Horaires -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-6 flex items-center gap-3">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span data-i18n="infos.horaires.title">Horaires d'ouverture</span>
+          </h3>
+          <div class="space-y-4">
+            <div class="flex justify-between items-start pb-4 border-b border-stone-100">
+              <span class="font-medium text-stone-700" data-i18n="infos.horaires.items.0.day">Lundi - Samedi</span>
+              <div class="text-right">
+                <p class="font-semibold text-stone-900">11:30 - 15:00</p>
+                <p class="font-semibold text-stone-900">18:00 - 22:00</p>
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-stone-500" data-i18n="infos.horaires.items.1.day">Dimanche</span>
+              <span class="font-bold text-brand-red uppercase tracking-wide" data-i18n="infos.horaires.items.1.hours">Fermé</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adresse & Contact -->
+        <div class="menu-card p-6 md:p-8">
+          <h3 class="font-display text-xl font-bold text-stone-900 mb-6 flex items-center gap-3">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span data-i18n="infos.adresse.title">Adresse & Contact</span>
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <p class="text-stone-700 leading-relaxed">
+                59 rue de Cléry<br>
+                75002 Paris
+              </p>
+            </div>
+            <div>
+              <p class="font-bold text-brand-red text-lg" data-i18n="infos.adresse.phone">09 51 25 06 86</p>
+            </div>
+            <a href="https://www.google.com/maps/place/LIDA/@48.8689946,2.3493107,579m/data=!3m1!1e3!4m15!1m8!3m7!1s0x47e66e16e3f01ee1:0xc09caa33191b42d4!2s59+Rue+de+Cl%C3%A9ry,+75002+Paris!3b1!8m2!3d48.8689946!4d2.3493107!16s%2Fg%2F11c5l7t77r!3m5!1s0x47e66f542a47f787:0xad1b7bcf0ee1300b!8m2!3d48.8689946!4d2.3493107!16s%2Fg%2F11zh92gdhr?entry=ttu&g_ep=EgoyMDI2MTAwNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-semibold text-brand-gold hover:text-brand-lightgold transition">
+              <span data-i18n="infos.adresse.mapsText">Ouvrir dans Google Maps</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m-3 0l6 6m-6-6v6"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-brand-dark text-stone-400 py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="font-display text-2xl font-bold text-brand-lightgold mb-2" data-i18n="footer.title">利达 LIDA</p>
+      <p class="text-sm mb-4" data-i18n="footer.text">Traiteur Asiatique • Paris 2ème</p>
+      <p class="text-xs" data-i18n="footer.copyright">© 2026 LIDA 利达 Traiteur Asiatique. Photos non contractuelles. Les produits servis peuvent différer des illustrations.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Sticky Bar -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-50 mobile-bottom-bar px-4 py-3 flex gap-3">
+    <a href="tel:0951250686" class="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-brand-red text-white font-semibold shadow-lg hover:bg-red-700 transition">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      <span data-i18n="mobile.call">Appeler</span>
+    </a>
+    <a href="https://www.google.com/maps/place/LIDA/@48.8689946,2.3493107,579m/data=!3m1!1e3!4m15!1m8!3m7!1s0x47e66e16e3f01ee1:0xc09caa33191b42d4!2s59+Rue+de+Cl%C3%A9ry,+75002+Paris!3b1!8m2!3d48.8689946!4d2.3493107!16s%2Fg%2F11c5l7t77r!3m5!1s0x47e66f542a47f787:0xad1b7bcf0ee1300b!8m2!3d48.8689946!4d2.3493107!16s%2Fg%2F11zh92gdhr?entry=ttu&g_ep=EgoyMDI2MTAwNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-stone-800 text-white font-semibold shadow-lg hover:bg-stone-900 transition">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      <span data-i18n="mobile.directions">Itinéraire</span>
+    </a>
+  </div>
+
+  <script>
+    // Embedded translations (inline to avoid CORS issues)
+    const translations = {
+      fr: {
+        "hero": {
+          "title": "利达 LIDA",
+          "subtitle": "Traiteur Asiatique",
+          "description": "Spécialités culinaires asiatiques fraîches préparées avec passion au cœur du 2ème arrondissement de Paris.",
+          "inPlace": "Sur place",
+          "takeAway": "À emporter",
+          "location": "📍 59 rue de Cléry, 75002"
+        },
+        "featured": {
+          "sectionTitle": "Nos Incontournables",
+          "sectionSubtitle": "Plats Phares / Signatures",
+          "cards": [
+            {
+              "tag": "Spécialité Maison",
+              "title": "Pad Thaï",
+              "description": "Nouilles thaï avec viande et cacahuètes",
+              "price": "13,00 €"
+            },
+            {
+              "tag": "Signature",
+              "title": "Bo Bun Mixte",
+              "description": "Bœuf, poulet & crevettes",
+              "price": "12,50 €"
+            },
+            {
+              "tag": "Spécialité",
+              "title": "Bœuf Loc Lak",
+              "description": "Avec riz thaï (+1,50 € avec œuf)",
+              "price": "12,00 €"
+            },
+            {
+              "tag": "Spécialité",
+              "title": "Crevettes basilic + riz",
+              "description": "Crevettes au basilic thaï",
+              "price": "12,50 €"
+            }
+          ]
+        },
+        "nav": {
+          "platsChauds": "Plats Chauds",
+          "dimSum": "Dim Sum",
+          "boissonsDesserts": "Boissons & Desserts",
+          "horairesAcces": "Horaires & Accès"
+        },
+        "specialites": {
+          "sectionTitle": "Nos Spécialités",
+          "sectionSubtitle": "Plats Chauds",
+          "soupes": {
+            "title": "SOUPES",
+            "tag": "Maison",
+            "description": "Préparées avec soin chaque jour",
+            "items": [
+              {
+                "name": "S1 • Pad Thaï",
+                "description": "Nouilles thaï avec viande et cacahuètes",
+                "price": "13,00 €"
+              },
+              {
+                "name": "S2 • Soupe wontons (6 pcs)",
+                "description": "Crevettes & châtaignes d'eau",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S3 • Nouilles & wontons (4 pcs)",
+                "description": "",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S4 • Soupe thaï aux crevettes",
+                "description": "Nouilles ou vermicelles de riz",
+                "price": "12,00 €"
+              }
+            ]
+          },
+          "boBuns": {
+            "title": "BO BUNS",
+            "tag": "Fraîcheur",
+            "description": "Vermicelles, crudités, cacahuètes, nems croustillants",
+            "items": [
+              {
+                "name": "Bœuf ou Poulet",
+                "price": "11,50 €"
+              },
+              {
+                "name": "Crevettes (6 pcs)",
+                "price": "12,00 €"
+              },
+              {
+                "name": "Mixte (bœuf, poulet & crevettes)",
+                "price": "12,50 €"
+              },
+              {
+                "name": "Végétarien au tofu",
+                "price": "11,00 €"
+              }
+            ]
+          }
+        },
+        "padThai": {
+          "title": "PAD THAÏ",
+          "description": "Sauce tamarin, soja, ciboulette, cacahuètes",
+          "items": [
+            {
+              "name": "P1 • Bœuf",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P2 • Poulet",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P3 • Crevettes",
+              "price": "12,00 €"
+            },
+            {
+              "name": "P4 • Végétarien au tofu",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "nouilles": {
+          "title": "NOUILLES SAUTÉES",
+          "items": [
+            {
+              "name": "N1 • Bœuf",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N2 • Poulet",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N3 • Crevettes",
+              "price": "12,00 €"
+            },
+            {
+              "name": "N4 • Végétariennes",
+              "price": "11,00 €"
+            },
+            {
+              "name": "T1 • Œufs brouillés, tomates",
+              "description": "Choix : nouilles, vermicelles ou riz",
+              "price": "10,50 €"
+            }
+          ]
+        },
+        "platsRiz": {
+          "title": "PLATS & RIZ",
+          "items": [
+            {
+              "name": "PS1 • Bœuf basilic + riz",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS2 • Poulet basilic + riz",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS3 • Crevettes basilic + riz",
+              "price": "12,50 €"
+            },
+            {
+              "name": "PS4 • Bœuf loc lak + riz thaï",
+              "description": "+1,50 € avec œuf",
+              "price": "12,00 €"
+            },
+            {
+              "name": "PS5 • Raviolis chinois porc (15 pcs)",
+              "price": "11,00 €"
+            },
+            {
+              "name": "PS6 • Poulet curry rouge + riz",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "dimSum": {
+          "title": "SNACKS & DIM SUM",
+          "description": "À partager ou en entrée • Idéal pour l'apéritif",
+          "tag": "Fait Maison / Vapeur & Grillé",
+          "items": [
+            {
+              "name": "Nems (4 pcs)",
+              "description": "Poulet ou végétarien",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Raviolis japonais (6 pcs)",
+              "description": "Au poulet (Gyoza)",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Tempura de crevettes (5 pcs)",
+              "description": "Fritures croustillantes",
+              "price": "6,50 €"
+            },
+            {
+              "name": "Mini brioches shanghaïennes (4 pcs)",
+              "description": "Baozi au porc",
+              "price": "6,50 €"
+            },
+            {
+              "name": "Bouchées aux crevettes (4 pcs)",
+              "description": "Crevettes & châtaignes d'eau (Siu Mai)",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Raviolis aux crevettes (4 pcs)",
+              "description": "Ha Kao - Robe transparente",
+              "price": "5,50 €"
+            }
+          ]
+        },
+        "desserts": {
+          "sectionTitle": "Desserts & Boissons",
+          "sectionSubtitle": "Desserts & Boissons",
+          "dessertsSection": {
+            "title": "DESSERTS",
+            "items": [
+              {
+                "name": "Mochi glacé thé vert",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Mochi glacé chocolat",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Mochi glacé coco",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Mochi glacé thaï tea",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Perle de coco",
+                "price": "3,00 € / pc"
+              }
+            ]
+          },
+          "boissonsSection": {
+            "title": "BOISSONS",
+            "items": [
+              {
+                "name": "Eau minérale 50 cl",
+                "price": "2,50 €"
+              },
+              {
+                "name": "San Pellegrino (50 cl / 1 L)",
+                "price": "3,00 / 5,00 €"
+              },
+              {
+                "name": "Canette classique",
+                "price": "2,00 €"
+              },
+              {
+                "name": "Canette exotique",
+                "description": "Litchi, mangue, coco, soja, nata de coco",
+                "price": "3,00 €"
+              },
+              {
+                "name": "Aloès vera 50 cl",
+                "price": "3,80 €"
+              },
+              {
+                "name": "Thé jasmin / Thé citron",
+                "price": "2,50 / 3,00 €"
+              },
+              {
+                "name": "Café",
+                "price": "2,00 €"
+              }
+            ]
+          },
+          "bieresVinsSection": {
+            "title": "BIÈRES & VINS",
+            "items": [
+              {
+                "name": "Tsingtao (33 cl / 64 cl)",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "Asahi (33 cl / 50 cl)",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "Cocktail maison",
+                "price": "4,50 €"
+              },
+              {
+                "name": "Kir / Martini / Ricard",
+                "price": "4,00 €"
+              },
+              {
+                "name": "Vin au verre",
+                "price": "2,50 €"
+              },
+              {
+                "name": "Vin carafe (25 cl / 50 cl)",
+                "price": "3,50 / 6,50 €"
+              }
+            ]
+          }
+        },
+        "infos": {
+          "sectionTitle": "Informations Pratiques",
+          "sectionSubtitle": "Horaires & Accès",
+          "horaires": {
+            "title": "Horaires d'ouverture",
+            "items": [
+              {
+                "day": "Lundi - Samedi",
+                "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+              },
+              {
+                "day": "Dimanche",
+                "hours": "Fermé"
+              }
+            ]
+          },
+          "adresse": {
+            "title": "Adresse & Contact",
+            "address": "59 rue de Cléry\n75002 Paris",
+            "phone": "09 51 25 06 86",
+            "mapsText": "Ouvrir dans Google Maps"
+          }
+        },
+        "footer": {
+          "title": "利达 LIDA",
+          "text": "Traiteur Asiatique • Paris 2ème",
+          "copyright": "© 2026 LIDA 利达 Traiteur Asiatique. Photos non contractuelles. Les produits servis peuvent différer des illustrations."
+        },
+        "mobile": {
+          "call": "Appeler",
+          "directions": "Itinéraire"
+        }
+      },
+      en: {
+        "hero": {
+          "title": "LIDA 利达",
+          "subtitle": "Asian Catering",
+          "description": "Fresh Asian culinary specialties prepared with passion in the heart of Paris 2nd arrondissement.",
+          "inPlace": "Dine in",
+          "takeAway": "Take away",
+          "location": "📍 59 rue de Cléry, 75002"
+        },
+        "featured": {
+          "sectionTitle": "Our Signatures",
+          "sectionSubtitle": "Signature Dishes",
+          "cards": [
+            {
+              "tag": "House Specialty",
+              "title": "Pad Thaï",
+              "description": "Thai noodles with meat and peanuts",
+              "price": "13,00 €"
+            },
+            {
+              "tag": "Signature",
+              "title": "Bo Bun Mixte",
+              "description": "Beef, chicken & shrimp",
+              "price": "12,50 €"
+            },
+            {
+              "tag": "Specialty",
+              "title": "Beef Loc Lak",
+              "description": "With Thai rice (+1,50 € with egg)",
+              "price": "12,00 €"
+            },
+            {
+              "tag": "Specialty",
+              "title": "Shrimp basil + rice",
+              "description": "Shrimp with Thai basil",
+              "price": "12,50 €"
+            }
+          ]
+        },
+        "nav": {
+          "platsChauds": "Hot Dishes",
+          "dimSum": "Dim Sum",
+          "boissonsDesserts": "Drinks & Desserts",
+          "horairesAcces": "Hours & Access"
+        },
+        "specialites": {
+          "sectionTitle": "Our Specialties",
+          "sectionSubtitle": "Hot Dishes",
+          "soupes": {
+            "title": "SOUPS",
+            "tag": "House",
+            "description": "Prepared with care every day",
+            "items": [
+              {
+                "name": "S1 • Pad Thaï",
+                "description": "Thai noodles with meat and peanuts",
+                "price": "13,00 €"
+              },
+              {
+                "name": "S2 • Wonton soup (6 pcs)",
+                "description": "Shrimp & water chestnuts",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S3 • Noodles & wontons (4 pcs)",
+                "description": "",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S4 • Thai shrimp soup",
+                "description": "Noodles or rice vermicelli",
+                "price": "12,00 €"
+              }
+            ]
+          },
+          "boBuns": {
+            "title": "BO BUNS",
+            "tag": "Freshness",
+            "description": "Vermicelli, vegetables, peanuts, crispy spring rolls",
+            "items": [
+              {
+                "name": "Beef or Chicken",
+                "price": "11,50 €"
+              },
+              {
+                "name": "Shrimp (6 pcs)",
+                "price": "12,00 €"
+              },
+              {
+                "name": "Mix (beef, chicken & shrimp)",
+                "price": "12,50 €"
+              },
+              {
+                "name": "Vegetarian with tofu",
+                "price": "11,00 €"
+              }
+            ]
+          }
+        },
+        "padThai": {
+          "title": "PAD THAÏ",
+          "description": "Tamarind sauce, soy, chives, peanuts",
+          "items": [
+            {
+              "name": "P1 • Beef",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P2 • Chicken",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P3 • Shrimp",
+              "price": "12,00 €"
+            },
+            {
+              "name": "P4 • Vegetarian with tofu",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "nouilles": {
+          "title": "STIR-FRIED NOODLES",
+          "items": [
+            {
+              "name": "N1 • Beef",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N2 • Chicken",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N3 • Shrimp",
+              "price": "12,00 €"
+            },
+            {
+              "name": "N4 • Vegetarian",
+              "price": "11,00 €"
+            },
+            {
+              "name": "T1 • Scrambled eggs, tomatoes",
+              "description": "Choice: noodles, vermicelli or rice",
+              "price": "10,50 €"
+            }
+          ]
+        },
+        "platsRiz": {
+          "title": "DISHES & RICE",
+          "items": [
+            {
+              "name": "PS1 • Beef basil + rice",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS2 • Chicken basil + rice",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS3 • Shrimp basil + rice",
+              "price": "12,50 €"
+            },
+            {
+              "name": "PS4 • Beef loc lak + Thai rice",
+              "description": "+1,50 € with egg",
+              "price": "12,00 €"
+            },
+            {
+              "name": "PS5 • Chinese pork dumplings (15 pcs)",
+              "price": "11,00 €"
+            },
+            {
+              "name": "PS6 • Red curry chicken + rice",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "dimSum": {
+          "title": "SNACKS & DIM SUM",
+          "description": "To share or as appetizer • Perfect for aperitif",
+          "tag": "House Made / Steamed & Grilled",
+          "items": [
+            {
+              "name": "Spring rolls (4 pcs)",
+              "description": "Chicken or vegetarian",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Japanese dumplings (6 pcs)",
+              "description": "Chicken (Gyoza)",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Shrimp tempura (5 pcs)",
+              "description": "Crispy fried",
+              "price": "6,50 €"
+            },
+            {
+              "name": "Mini Shanghai buns (4 pcs)",
+              "description": "Pork Baozi",
+              "price": "6,50 €"
+            },
+            {
+              "name": "Shrimp bites (4 pcs)",
+              "description": "Shrimp & water chestnuts (Siu Mai)",
+              "price": "5,50 €"
+            },
+            {
+              "name": "Shrimp dumplings (4 pcs)",
+              "description": "Ha Kao - Transparent wrapper",
+              "price": "5,50 €"
+            }
+          ]
+        },
+        "desserts": {
+          "sectionTitle": "Desserts & Drinks",
+          "sectionSubtitle": "Desserts & Drinks & Wines",
+          "dessertsSection": {
+            "title": "DESSERTS",
+            "items": [
+              {
+                "name": "Green tea mochi ice cream",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Chocolate mochi ice cream",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Coconut mochi ice cream",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Thai tea mochi ice cream",
+                "price": "3,50 € / pc"
+              },
+              {
+                "name": "Coconut pearl",
+                "price": "3,00 € / pc"
+              }
+            ]
+          },
+          "boissonsSection": {
+            "title": "DRINKS",
+            "items": [
+              {
+                "name": "Mineral water 50 cl",
+                "price": "2,50 €"
+              },
+              {
+                "name": "San Pellegrino (50 cl / 1 L)",
+                "price": "3,00 / 5,00 €"
+              },
+              {
+                "name": "Classic can",
+                "price": "2,00 €"
+              },
+              {
+                "name": "Exotic can",
+                "description": "Lychee, mango, coconut, soy, nata de coco",
+                "price": "3,00 €"
+              },
+              {
+                "name": "Aloe vera 50 cl",
+                "price": "3,80 €"
+              },
+              {
+                "name": "Jasmine tea / Lemon tea",
+                "price": "2,50 / 3,00 €"
+              },
+              {
+                "name": "Coffee",
+                "price": "2,00 €"
+              }
+            ]
+          },
+          "bieresVinsSection": {
+            "title": "BEERS & WINES",
+            "items": [
+              {
+                "name": "Tsingtao (33 cl / 64 cl)",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "Asahi (33 cl / 50 cl)",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "House cocktail",
+                "price": "4,50 €"
+              },
+              {
+                "name": "Kir / Martini / Ricard",
+                "price": "4,00 €"
+              },
+              {
+                "name": "Wine by the glass",
+                "price": "2,50 €"
+              },
+              {
+                "name": "Wine carafe (25 cl / 50 cl)",
+                "price": "3,50 / 6,50 €"
+              }
+            ]
+          }
+        },
+        "infos": {
+          "sectionTitle": "Practical Information",
+          "sectionSubtitle": "Hours & Access",
+          "horaires": {
+            "title": "Opening Hours",
+            "items": [
+              {
+                "day": "Monday - Saturday",
+                "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+              },
+              {
+                "day": "Sunday",
+                "hours": "Closed"
+              }
+            ]
+          },
+          "adresse": {
+            "title": "Address & Contact",
+            "address": "59 rue de Cléry\n75002 Paris",
+            "phone": "09 51 25 06 86",
+            "mapsText": "Open in Google Maps"
+          }
+        },
+        "footer": {
+          "title": "LIDA 利达",
+          "text": "Asian Catering • Paris 2nd",
+          "copyright": "© 2026 LIDA 利达 Asian Catering. Photos are non-contractual. Products served may differ from illustrations."
+        },
+        "mobile": {
+          "call": "Call",
+          "directions": "Directions"
+        }
+      },
+      zh: {
+        "hero": {
+          "title": "利达 LIDA",
+          "subtitle": "亚洲外卖",
+          "description": "在巴黎第二区用心制作的新鲜亚洲美食",
+          "inPlace": "堂食",
+          "takeAway": "外卖",
+          "location": "📍 59 rue de Cléry, 75002"
+        },
+        "featured": {
+          "sectionTitle": "招牌菜",
+          "sectionSubtitle": "特色菜品",
+          "cards": [
+            {
+              "tag": "本店特色",
+              "title": "泰式炒河粉",
+              "description": "泰式河粉配肉和花生",
+              "price": "13,00 €"
+            },
+            {
+              "tag": "招牌",
+              "title": "混合凉拌米粉",
+              "description": "牛肉、鸡肉和虾仁",
+              "price": "12,50 €"
+            },
+            {
+              "tag": "特色",
+              "title": "牛肉Loc Lak",
+              "description": "配泰式米饭（加蛋+1.50€）",
+              "price": "12,00 €"
+            },
+            {
+              "tag": "特色",
+              "title": "虾仁罗勒配饭",
+              "description": "泰式罗勒虾仁",
+              "price": "12,50 €"
+            }
+          ]
+        },
+        "nav": {
+          "platsChauds": "热菜",
+          "dimSum": "点心",
+          "boissonsDesserts": "饮料 & 甜品",
+          "horairesAcces": "营业时间 & 地址"
+        },
+        "specialites": {
+          "sectionTitle": "我们的特色",
+          "sectionSubtitle": "热菜",
+          "soupes": {
+            "title": "汤类",
+            "tag": "本店",
+            "description": "每日精心制作",
+            "items": [
+              {
+                "name": "S1 • 泰式炒河粉",
+                "description": "泰式河粉配肉和花生",
+                "price": "13,00 €"
+              },
+              {
+                "name": "S2 • 馄饨汤（6个）",
+                "description": "虾仁与荸荠",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S3 • 面条与馄饨（4个）",
+                "description": "",
+                "price": "11,50 €"
+              },
+              {
+                "name": "S4 • 泰式虾仁汤",
+                "description": "面条或米粉",
+                "price": "12,00 €"
+              }
+            ]
+          },
+          "boBuns": {
+            "title": "凉拌米粉",
+            "tag": "新鲜",
+            "description": "米粉、蔬菜、花生、春卷",
+            "items": [
+              {
+                "name": "牛肉或鸡肉",
+                "price": "11,50 €"
+              },
+              {
+                "name": "虾仁（6个）",
+                "price": "12,00 €"
+              },
+              {
+                "name": "混合（牛肉、鸡肉和虾仁）",
+                "price": "12,50 €"
+              },
+              {
+                "name": "素食豆腐",
+                "price": "11,00 €"
+              }
+            ]
+          }
+        },
+        "padThai": {
+          "title": "泰式炒河粉",
+          "description": "罗望子酱、酱油、葱、花生",
+          "items": [
+            {
+              "name": "P1 • 牛肉",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P2 • 鸡肉",
+              "price": "11,50 €"
+            },
+            {
+              "name": "P3 • 虾仁",
+              "price": "12,00 €"
+            },
+            {
+              "name": "P4 • 素食豆腐",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "nouilles": {
+          "title": "炒面",
+          "items": [
+            {
+              "name": "N1 • 牛肉",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N2 • 鸡肉",
+              "price": "11,50 €"
+            },
+            {
+              "name": "N3 • 虾仁",
+              "price": "12,00 €"
+            },
+            {
+              "name": "N4 • 素食",
+              "price": "11,00 €"
+            },
+            {
+              "name": "T1 • 番茄炒蛋",
+              "description": "可选：面条、米粉或米饭",
+              "price": "10,50 €"
+            }
+          ]
+        },
+        "platsRiz": {
+          "title": "米饭精选",
+          "items": [
+            {
+              "name": "PS1 • 牛肉罗勒配饭",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS2 • 鸡肉罗勒配饭",
+              "price": "11,50 €"
+            },
+            {
+              "name": "PS3 • 虾仁罗勒配饭",
+              "price": "12,50 €"
+            },
+            {
+              "name": "PS4 • 牛肉Loc Lak配泰式米饭",
+              "description": "加蛋+1.50€",
+              "price": "12,00 €"
+            },
+            {
+              "name": "PS5 • 猪肉饺子（15个）",
+              "price": "11,00 €"
+            },
+            {
+              "name": "PS6 • 红咖喱鸡肉配饭",
+              "price": "11,00 €"
+            }
+          ]
+        },
+        "dimSum": {
+          "title": "点心小食",
+          "description": "可分享或作为开胃菜 • 适合下酒",
+          "tag": "自制 / 蒸制 & 烤制",
+          "items": [
+            {
+              "name": "春卷（4个）",
+              "description": "鸡肉或素食",
+              "price": "5,50 €"
+            },
+            {
+              "name": "日式饺子（6个）",
+              "description": "鸡肉（锅贴）",
+              "price": "5,50 €"
+            },
+            {
+              "name": "天妇罗虾仁（5个）",
+              "description": "酥脆炸制",
+              "price": "6,50 €"
+            },
+            {
+              "name": "迷你上海小笼包（4个）",
+              "description": "猪肉包子",
+              "price": "6,50 €"
+            },
+            {
+              "name": "虾仁烧卖（4个）",
+              "description": "虾烧卖",
+              "price": "5,50 €"
+            },
+            {
+              "name": "虾仁饺子（4个）",
+              "description": "虾饺",
+              "price": "5,50 €"
+            }
+          ]
+        },
+        "desserts": {
+          "sectionTitle": "甜品与饮料",
+          "sectionSubtitle": "甜品 & 饮料 & 酒类",
+          "dessertsSection": {
+            "title": "甜品",
+            "items": [
+              {
+                "name": "抹茶麻薯冰淇淋",
+                "price": "3,50 € / 个"
+              },
+              {
+                "name": "巧克力麻薯冰淇淋",
+                "price": "3,50 € / 个"
+              },
+              {
+                "name": "椰子麻薯冰淇淋",
+                "price": "3,50 € / 个"
+              },
+              {
+                "name": "泰茶麻薯冰淇淋",
+                "price": "3,50 € / 个"
+              },
+              {
+                "name": "椰子珍珠",
+                "price": "3,00 € / 个"
+              }
+            ]
+          },
+          "boissonsSection": {
+            "title": "饮料",
+            "items": [
+              {
+                "name": "矿泉水 50 cl",
+                "price": "2,50 €"
+              },
+              {
+                "name": "圣培露（50 cl / 1 L）",
+                "price": "3,00 / 5,00 €"
+              },
+              {
+                "name": "经典罐装饮料",
+                "price": "2,00 €"
+              },
+              {
+                "name": "特色罐装饮料",
+                "description": "荔枝、芒果、椰子、豆奶、椰果",
+                "price": "3,00 €"
+              },
+              {
+                "name": "芦荟 50 cl",
+                "price": "3,80 €"
+              },
+              {
+                "name": "茉莉花茶 / 柠檬茶",
+                "price": "2,50 / 3,00 €"
+              },
+              {
+                "name": "咖啡",
+                "price": "2,00 €"
+              }
+            ]
+          },
+          "bieresVinsSection": {
+            "title": "啤酒与葡萄酒",
+            "items": [
+              {
+                "name": "青岛啤酒（33 cl / 64 cl）",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "朝日啤酒（33 cl / 50 cl）",
+                "price": "3,00 / 5,50 €"
+              },
+              {
+                "name": "自制鸡尾酒",
+                "price": "4,50 €"
+              },
+              {
+                "name": "基尔 / 马天尼 / 里卡德",
+                "price": "4,00 €"
+              },
+              {
+                "name": "按杯葡萄酒",
+                "price": "2,50 €"
+              },
+              {
+                "name": "红酒壶装（25 cl / 50 cl）",
+                "price": "3,50 / 6,50 €"
+              }
+            ]
+          }
+        },
+        "infos": {
+          "sectionTitle": "实用信息",
+          "sectionSubtitle": "营业时间 & 地址",
+          "horaires": {
+            "title": "营业时间",
+            "items": [
+              {
+                "day": "周一 - 周六",
+                "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+              },
+              {
+                "day": "周日",
+                "hours": "休息"
+              }
+            ]
+          },
+          "adresse": {
+            "title": "地址 & 联系方式",
+            "address": "59 rue de Cléry\n75002 Paris",
+            "phone": "09 51 25 06 86",
+            "mapsText": "在谷歌地图中打开"
+          }
+        },
+        "footer": {
+          "title": "利达 LIDA",
+          "text": "亚洲外卖 • 巴黎二区",
+          "copyright": "© 2026 LIDA 利达 亚洲外卖。照片仅供参考。实际产品可能与图片不同。"
+        },
+        "mobile": {
+          "call": "电话",
+          "directions": "导航"
+        }
+      }
+    };
+
+    let currentLang = 'fr';
+
+    // Get nested object value by path
+    function getValueByPath(obj, path) {
+      return path.split('.').reduce((o, i) => o?.[i], obj);
+    }
+
+    // Apply translations to DOM
+    function applyTranslations(lang) {
+      const t = translations[lang];
+      if (!t) return;
+
+      // Update elements with data-i18n attribute
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const path = el.getAttribute('data-i18n');
+        const value = getValueByPath(t, path);
+        if (value !== undefined && value !== null && value !== '') {
+          el.textContent = value;
+        }
+      });
+
+      // Update hero badges (emoji + text)
+      const badges = document.querySelectorAll('.hero-pattern .bg-white\\/90');
+      if (badges.length >= 3) {
+        badges[0].textContent = '🍜 ' + t.hero.inPlace;
+        badges[1].textContent = '🥡 ' + t.hero.takeAway;
+        badges[2].textContent = t.hero.location;
+      }
+
+      // Update footer
+      const footerTitle = document.querySelector('footer .font-display');
+      if (footerTitle) footerTitle.textContent = t.footer.title;
+      const footerText = document.querySelector('footer p:nth-of-type(2)');
+      if (footerText) footerText.textContent = t.footer.text;
+      const footerCopyright = document.querySelector('footer p:nth-of-type(3)');
+      if (footerCopyright) footerCopyright.textContent = t.footer.copyright;
+
+      // Update mobile bar
+      const mobileBarBtns = document.querySelectorAll('.mobile-bottom-bar a');
+      if (mobileBarBtns.length >= 2) {
+        const appelerSpan = mobileBarBtns[0].querySelector('span');
+        if (appelerSpan) appelerSpan.textContent = t.mobile.call;
+        const itineraireSpan = mobileBarBtns[1].querySelector('span');
+        if (itineraireSpan) itineraireSpan.textContent = t.mobile.directions;
+      }
+    }
+
+    // Set language
+    function setLanguage(lang) {
+      // Update button states (both desktop and mobile use .lang-btn)
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.dataset.lang === lang) {
+          btn.classList.add('active');
+        }
+      });
+
+      // Apply translations
+      if (translations[lang]) {
+        currentLang = lang;
+        applyTranslations(lang);
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      // Apply French translations by default
+      applyTranslations('fr');
+    });
+  </script>
+
+</body>
+</html>

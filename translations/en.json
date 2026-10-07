@@ -1,0 +1,339 @@
+{
+  "hero": {
+    "title": "LIDA 利达",
+    "subtitle": "Asian Catering",
+    "description": "Fresh Asian culinary specialties prepared with passion in the heart of Paris 2nd arrondissement.",
+    "inPlace": "Dine in",
+    "takeAway": "Take away",
+    "location": "📍 59 rue de Cléry, 75002"
+  },
+  "featured": {
+    "sectionTitle": "Our Signatures",
+    "sectionSubtitle": "Signature Dishes",
+    "cards": [
+      {
+        "tag": "House Specialty",
+        "title": "Pad Thaï",
+        "description": "Thai noodles with meat and peanuts",
+        "price": "13,00 €"
+      },
+      {
+        "tag": "Signature",
+        "title": "Bo Bun Mixte",
+        "description": "Beef, chicken & shrimp",
+        "price": "12,50 €"
+      },
+      {
+        "tag": "Specialty",
+        "title": "Beef Loc Lak",
+        "description": "With Thai rice (+1,50 € with egg)",
+        "price": "12,00 €"
+      },
+      {
+        "tag": "Specialty",
+        "title": "Shrimp basil + rice",
+        "description": "Shrimp with Thai basil",
+        "price": "12,50 €"
+      }
+    ]
+  },
+  "specialites": {
+    "sectionTitle": "Our Specialties",
+    "sectionSubtitle": "Hot Dishes",
+    "soupes": {
+      "title": "SOUPS",
+      "tag": "House",
+      "description": "Prepared with care every day",
+      "items": [
+        {
+          "name": "S1 • Pad Thaï",
+          "description": "Thai noodles with meat and peanuts",
+          "price": "13,00 €"
+        },
+        {
+          "name": "S2 • Wonton soup (6 pcs)",
+          "description": "Shrimp & water chestnuts",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S3 • Noodles & wontons (4 pcs)",
+          "description": "",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S4 • Thai shrimp soup",
+          "description": "Noodles or rice vermicelli",
+          "price": "12,00 €"
+        }
+      ]
+    },
+    "boBuns": {
+      "title": "BO BUNS",
+      "tag": "Freshness",
+      "description": "Vermicelli, vegetables, peanuts, crispy spring rolls",
+      "items": [
+        {
+          "name": "Beef or Chicken",
+          "price": "11,50 €"
+        },
+        {
+          "name": "Shrimp (6 pcs)",
+          "price": "12,00 €"
+        },
+        {
+          "name": "Mix (beef, chicken & shrimp)",
+          "price": "12,50 €"
+        },
+        {
+          "name": "Vegetarian with tofu",
+          "price": "11,00 €"
+        }
+      ]
+    }
+  },
+  "padThai": {
+    "title": "PAD THAÏ",
+    "description": "Tamarind sauce, soy, chives, peanuts",
+    "items": [
+      {
+        "name": "P1 • Beef",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P2 • Chicken",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P3 • Shrimp",
+        "price": "12,00 €"
+      },
+      {
+        "name": "P4 • Vegetarian with tofu",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "nouilles": {
+    "title": "STIR-FRIED NOODLES",
+    "items": [
+      {
+        "name": "N1 • Beef",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N2 • Chicken",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N3 • Shrimp",
+        "price": "12,00 €"
+      },
+      {
+        "name": "N4 • Vegetarian",
+        "price": "11,00 €"
+      },
+      {
+        "name": "T1 • Scrambled eggs, tomatoes",
+        "description": "Choice: noodles, vermicelli or rice",
+        "price": "10,50 €"
+      }
+    ]
+  },
+  "platsRiz": {
+    "title": "DISHES & RICE",
+    "items": [
+      {
+        "name": "PS1 • Beef basil + rice",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS2 • Chicken basil + rice",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS3 • Shrimp basil + rice",
+        "price": "12,50 €"
+      },
+      {
+        "name": "PS4 • Beef loc lak + Thai rice",
+        "description": "+1,50 € with egg",
+        "price": "12,00 €"
+      },
+      {
+        "name": "PS5 • Chinese pork dumplings (15 pcs)",
+        "price": "11,00 €"
+      },
+      {
+        "name": "PS6 • Red curry chicken + rice",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "dimSum": {
+    "title": "SNACKS & DIM SUM",
+    "description": "To share or as appetizer • Perfect for aperitif",
+    "tag": "House Made / Steamed & Grilled",
+    "items": [
+      {
+        "name": "Spring rolls (4 pcs)",
+        "description": "Chicken or vegetarian",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Japanese dumplings (6 pcs)",
+        "description": "Chicken (Gyoza)",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Shrimp tempura (5 pcs)",
+        "description": "Crispy fried",
+        "price": "6,50 €"
+      },
+      {
+        "name": "Mini Shanghai buns (4 pcs)",
+        "description": "Pork Baozi",
+        "price": "6,50 €"
+      },
+      {
+        "name": "Shrimp bites (4 pcs)",
+        "description": "Shrimp & water chestnuts (Siu Mai)",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Shrimp dumplings (4 pcs)",
+        "description": "Ha Kao - Transparent wrapper",
+        "price": "5,50 €"
+      }
+    ]
+  },
+  "desserts": {
+    "sectionTitle": "Desserts & Drinks",
+    "sectionSubtitle": "Desserts & Drinks & Wines",
+    "dessertsSection": {
+      "title": "DESSERTS",
+      "items": [
+        {
+          "name": "Green tea mochi ice cream",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Chocolate mochi ice cream",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Coconut mochi ice cream",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Thai tea mochi ice cream",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Coconut pearl",
+          "price": "3,00 € / pc"
+        }
+      ]
+    },
+    "boissonsSection": {
+      "title": "DRINKS",
+      "items": [
+        {
+          "name": "Mineral water 50 cl",
+          "price": "2,50 €"
+        },
+        {
+          "name": "San Pellegrino (50 cl / 1 L)",
+          "price": "3,00 / 5,00 €"
+        },
+        {
+          "name": "Classic can",
+          "price": "2,00 €"
+        },
+        {
+          "name": "Exotic can",
+          "description": "Lychee, mango, coconut, soy, nata de coco",
+          "price": "3,00 €"
+        },
+        {
+          "name": "Aloe vera 50 cl",
+          "price": "3,80 €"
+        },
+        {
+          "name": "Jasmine tea / Lemon tea",
+          "price": "2,50 / 3,00 €"
+        },
+        {
+          "name": "Coffee",
+          "price": "2,00 €"
+        }
+      ]
+    },
+    "bieresVinsSection": {
+      "title": "BEERS & WINES",
+      "items": [
+        {
+          "name": "Tsingtao (33 cl / 64 cl)",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "Asahi (33 cl / 50 cl)",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "House cocktail",
+          "price": "4,50 €"
+        },
+        {
+          "name": "Kir / Martini / Ricard",
+          "price": "4,00 €"
+        },
+        {
+          "name": "Wine by the glass",
+          "price": "2,50 €"
+        },
+        {
+          "name": "Wine carafe (25 cl / 50 cl)",
+          "price": "3,50 / 6,50 €"
+        }
+      ]
+    }
+  },
+  "infos": {
+    "sectionTitle": "Practical Information",
+    "sectionSubtitle": "Hours & Access",
+    "horaires": {
+      "title": "Opening Hours",
+      "items": [
+        {
+          "day": "Monday - Saturday",
+          "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ]
+    },
+    "adresse": {
+      "title": "Address & Contact",
+      "address": "59 rue de Cléry\n75002 Paris",
+      "phone": "09 51 25 06 86",
+      "mapsText": "Open in Google Maps"
+    }
+  },
+  "footer": {
+    "title": "LIDA 利达",
+    "text": "Asian Catering • Paris 2nd",
+    "copyright": "© 2026 LIDA 利达 Asian Catering. Photos are non-contractual. Products served may differ from illustrations."
+  },
+  "mobile": {
+    "call": "Call",
+    "directions": "Directions"
+  },
+  "nav": {
+    "platsChauds": "Hot Dishes",
+    "dimSum": "Dim Sum",
+    "boissonsDesserts": "Drinks & Desserts",
+    "horairesAcces": "Hours & Access"
+  }
+}

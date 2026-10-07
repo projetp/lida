@@ -1,0 +1,339 @@
+{
+  "hero": {
+    "title": "利达 LIDA",
+    "subtitle": "Traiteur Asiatique",
+    "description": "Spécialités culinaires asiatiques fraîches préparées avec passion au cœur du 2ème arrondissement de Paris.",
+    "inPlace": "Sur place",
+    "takeAway": "À emporter",
+    "location": "📍 59 rue de Cléry, 75002"
+  },
+  "featured": {
+    "sectionTitle": "Nos Incontournables",
+    "sectionSubtitle": "Plats Phares / Signatures",
+    "cards": [
+      {
+        "tag": "Spécialité Maison",
+        "title": "Pad Thaï",
+        "description": "Nouilles thaï avec viande et cacahuètes",
+        "price": "13,00 €"
+      },
+      {
+        "tag": "Signature",
+        "title": "Bo Bun Mixte",
+        "description": "Bœuf, poulet & crevettes",
+        "price": "12,50 €"
+      },
+      {
+        "tag": "Spécialité",
+        "title": "Bœuf Loc Lak",
+        "description": "Avec riz thaï (+1,50 € avec œuf)",
+        "price": "12,00 €"
+      },
+      {
+        "tag": "Spécialité",
+        "title": "Crevettes basilic + riz",
+        "description": "Crevettes au basilic thaï",
+        "price": "12,50 €"
+      }
+    ]
+  },
+  "specialites": {
+    "sectionTitle": "Nos Spécialités",
+    "sectionSubtitle": "Plats Chauds",
+    "soupes": {
+      "title": "SOUPES",
+      "tag": "Maison",
+      "description": "Préparées avec soin chaque jour",
+      "items": [
+        {
+          "name": "S1 • Pad Thaï",
+          "description": "Nouilles thaï avec viande et cacahuètes",
+          "price": "13,00 €"
+        },
+        {
+          "name": "S2 • Soupe wontons (6 pcs)",
+          "description": "Crevettes & châtaignes d'eau",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S3 • Nouilles & wontons (4 pcs)",
+          "description": "",
+          "price": "11,50 €"
+        },
+        {
+          "name": "S4 • Soupe thaï aux crevettes",
+          "description": "Nouilles ou vermicelles de riz",
+          "price": "12,00 €"
+        }
+      ]
+    },
+    "boBuns": {
+      "title": "BO BUNS",
+      "tag": "Fraîcheur",
+      "description": "Vermicelles, crudités, cacahuètes, nems croustillants",
+      "items": [
+        {
+          "name": "Bœuf ou Poulet",
+          "price": "11,50 €"
+        },
+        {
+          "name": "Crevettes (6 pcs)",
+          "price": "12,00 €"
+        },
+        {
+          "name": "Mixte (bœuf, poulet & crevettes)",
+          "price": "12,50 €"
+        },
+        {
+          "name": "Végétarien au tofu",
+          "price": "11,00 €"
+        }
+      ]
+    }
+  },
+  "padThai": {
+    "title": "PAD THAÏ",
+    "description": "Sauce tamarin, soja, ciboulette, cacahuètes",
+    "items": [
+      {
+        "name": "P1 • Bœuf",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P2 • Poulet",
+        "price": "11,50 €"
+      },
+      {
+        "name": "P3 • Crevettes",
+        "price": "12,00 €"
+      },
+      {
+        "name": "P4 • Végétarien au tofu",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "nouilles": {
+    "title": "NOUILLES SAUTÉES",
+    "items": [
+      {
+        "name": "N1 • Bœuf",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N2 • Poulet",
+        "price": "11,50 €"
+      },
+      {
+        "name": "N3 • Crevettes",
+        "price": "12,00 €"
+      },
+      {
+        "name": "N4 • Végétariennes",
+        "price": "11,00 €"
+      },
+      {
+        "name": "T1 • Œufs brouillés, tomates",
+        "description": "Choix : nouilles, vermicelles ou riz",
+        "price": "10,50 €"
+      }
+    ]
+  },
+  "platsRiz": {
+    "title": "PLATS & RIZ",
+    "items": [
+      {
+        "name": "PS1 • Bœuf basilic + riz",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS2 • Poulet basilic + riz",
+        "price": "11,50 €"
+      },
+      {
+        "name": "PS3 • Crevettes basilic + riz",
+        "price": "12,50 €"
+      },
+      {
+        "name": "PS4 • Bœuf loc lak + riz thaï",
+        "description": "+1,50 € avec œuf",
+        "price": "12,00 €"
+      },
+      {
+        "name": "PS5 • Raviolis chinois porc (15 pcs)",
+        "price": "11,00 €"
+      },
+      {
+        "name": "PS6 • Poulet curry rouge + riz",
+        "price": "11,00 €"
+      }
+    ]
+  },
+  "dimSum": {
+    "title": "SNACKS & DIM SUM",
+    "description": "À partager ou en entrée • Idéal pour l'apéritif",
+    "tag": "Fait Maison / Vapeur & Grillé",
+    "items": [
+      {
+        "name": "Nems (4 pcs)",
+        "description": "Poulet ou végétarien",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Raviolis japonais (6 pcs)",
+        "description": "Au poulet (Gyoza)",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Tempura de crevettes (5 pcs)",
+        "description": "Fritures croustillantes",
+        "price": "6,50 €"
+      },
+      {
+        "name": "Mini brioches shanghaïennes (4 pcs)",
+        "description": "Baozi au porc",
+        "price": "6,50 €"
+      },
+      {
+        "name": "Bouchées aux crevettes (4 pcs)",
+        "description": "Crevettes & châtaignes d'eau (Siu Mai)",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Raviolis aux crevettes (4 pcs)",
+        "description": "Ha Kao - Robe transparente",
+        "price": "5,50 €"
+      }
+    ]
+  },
+  "desserts": {
+    "sectionTitle": "Desserts & Boissons",
+    "sectionSubtitle": "Desserts & Boissons",
+    "dessertsSection": {
+      "title": "DESSERTS",
+      "items": [
+        {
+          "name": "Mochi glacé thé vert",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Mochi glacé chocolat",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Mochi glacé coco",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Mochi glacé thaï tea",
+          "price": "3,50 € / pc"
+        },
+        {
+          "name": "Perle de coco",
+          "price": "3,00 € / pc"
+        }
+      ]
+    },
+    "boissonsSection": {
+      "title": "BOISSONS",
+      "items": [
+        {
+          "name": "Eau minérale 50 cl",
+          "price": "2,50 €"
+        },
+        {
+          "name": "San Pellegrino (50 cl / 1 L)",
+          "price": "3,00 / 5,00 €"
+        },
+        {
+          "name": "Canette classique",
+          "price": "2,00 €"
+        },
+        {
+          "name": "Canette exotique",
+          "description": "Litchi, mangue, coco, soja, nata de coco",
+          "price": "3,00 €"
+        },
+        {
+          "name": "Aloès vera 50 cl",
+          "price": "3,80 €"
+        },
+        {
+          "name": "Thé jasmin / Thé citron",
+          "price": "2,50 / 3,00 €"
+        },
+        {
+          "name": "Café",
+          "price": "2,00 €"
+        }
+      ]
+    },
+    "bieresVinsSection": {
+      "title": "BIÈRES & VINS",
+      "items": [
+        {
+          "name": "Tsingtao (33 cl / 64 cl)",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "Asahi (33 cl / 50 cl)",
+          "price": "3,00 / 5,50 €"
+        },
+        {
+          "name": "Cocktail maison",
+          "price": "4,50 €"
+        },
+        {
+          "name": "Kir / Martini / Ricard",
+          "price": "4,00 €"
+        },
+        {
+          "name": "Vin au verre",
+          "price": "2,50 €"
+        },
+        {
+          "name": "Vin carafe (25 cl / 50 cl)",
+          "price": "3,50 / 6,50 €"
+        }
+      ]
+    }
+  },
+  "infos": {
+    "sectionTitle": "Informations Pratiques",
+    "sectionSubtitle": "Horaires & Accès",
+    "horaires": {
+      "title": "Horaires d'ouverture",
+      "items": [
+        {
+          "day": "Lundi - Samedi",
+          "hours": ["11:30 - 15:00", "18:00 - 22:00"]
+        },
+        {
+          "day": "Dimanche",
+          "hours": "Fermé"
+        }
+      ]
+    },
+    "adresse": {
+      "title": "Adresse & Contact",
+      "address": "59 rue de Cléry\n75002 Paris",
+      "phone": "09 51 25 06 86",
+      "mapsText": "Ouvrir dans Google Maps"
+    }
+  },
+  "footer": {
+    "title": "利达 LIDA",
+    "text": "Traiteur Asiatique • Paris 2ème",
+    "copyright": "© 2026 LIDA 利达 Traiteur Asiatique. Photos non contractuelles. Les produits servis peuvent différer des illustrations."
+  },
+  "mobile": {
+    "call": "Appeler",
+    "directions": "Itinéraire"
+  },
+  "nav": {
+    "platsChauds": "Plats Chauds",
+    "dimSum": "Dim Sum",
+    "boissonsDesserts": "Boissons & Desserts",
+    "horairesAcces": "Horaires & Accès"
+  }
+}
